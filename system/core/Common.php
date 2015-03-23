@@ -1,17 +1,23 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * CodeIgniter
- *
- * An open source application development framework for PHP 5.1.6 or newer
- *
- * @package		CodeIgniter
- * @author		ExpressionEngine Dev Team
- * @copyright	Copyright (c) 2008 - 2011, EllisLab, Inc.
- * @license		http://codeigniter.com/user_guide/license.html
- * @link		http://codeigniter.com
- * @since		Version 1.0
- * @filesource
- */
+*==============================================*
+*	   _/_/_/  _/_/_/                          *
+*     _/        _/   _/   _/                   *
+*    _/_/_/    _/     _/_/                     *
+*   _/        _/      _/_/                     *
+*  _/      _/_/_/   _/   _/                    *
+*==============================================*
+*           _/_/_/  _/_/_/  _/_/_/   _/_/_/    *
+*          _/      _/  _/  _/  _/   _/         *
+*         _/      _/  _/  _/_/_/   _/_/_/      *
+*        _/_/_/  _/_/_/  _/   _/  _/           *
+*    2015 Dev-KM -            / _/_/_/_/       *
+* -------------------------------------------- *
+* - Developer(s): KM                           *
+* - Contacto: krizttian@live.com               *
+* - Copyright (C) 2014 - 2015 Fix-Core.        *
+*==============================================*
+*/
 
 // ------------------------------------------------------------------------
 
@@ -254,7 +260,8 @@ if ( ! function_exists('get_config'))
 			}
 		}
 
-		return $_config[0] =& $config;
+		$_config[0] =& $config;
+		return $_config[0];
 	}
 }
 
